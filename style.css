@@ -552,6 +552,10 @@ li span:hover:after {
         height: 100vh;
         width: 100vw;
     }
+    #copyright{
+        /* border: 1px solid black; */
+        margin-top: 120px;
+    }
   
 }
 /* media query for mobile  */
@@ -666,6 +670,10 @@ li span:hover:after {
 
     .project-star-mobile {
         display: block;
+    }
+    #copyright{
+        /* border: 1px solid black; */
+        margin-top: 120px;
     }
     
 }
