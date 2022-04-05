@@ -819,6 +819,9 @@ li span:hover:after {
 #eight{
     width: 35%;
 }
+#nine{
+    width: 50%;
+}
 
 
 @media only screen and (min-width: 0px) and (max-width: 640px) {
