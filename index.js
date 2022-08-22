@@ -71,3 +71,55 @@ var theory = [
       index4++;
     } , 2000);
   
+  var weather = [
+    "assets/weather/one.png",
+    "assets/weather/two.png",
+    "assets/weather/three.png",
+    ]
+  
+    var index5 = 0;
+    setInterval (function(){
+      if (index5 === weather.length) {
+        index5 = 0;
+      }
+      document.getElementById("weather").src = weather[index5];
+      index5++;
+    } , 2000);
+
+  var lms = [
+    "assets/lms/Screenshot (675).png",
+    "assets/lms/Screenshot (676).png",
+    "assets/lms/Screenshot (677).png",
+    "assets/lms/Screenshot (678).png",
+    "assets/lms/Screenshot (679).png",
+    "assets/lms/Screenshot (680).png",
+    "assets/lms/Screenshot (681).png",
+    
+    ]
+  
+    var index6 = 0;
+    setInterval (function(){
+      if (index6 === lms.length) {
+        index6 = 0;
+      }
+      document.getElementById("lms").src = lms[index6];
+      index6++;
+    } , 2000);
+  
+  var bio = [
+    "assets/bioBuilder/one.png",
+    "assets/bioBuilder/two.png",
+    "assets/bioBuilder/thre.png",
+    "assets/bioBuilder/four.png",
+    
+    ]
+  
+    var index7 = 0;
+    setInterval (function(){
+      if (index7 === bio.length) {
+        index7 = 0;
+      }
+      document.getElementById("bio").src = bio[index7];
+      index7++;
+    } , 2000);
+  
